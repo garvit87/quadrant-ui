@@ -1,0 +1,78 @@
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-light" id="tobar" style="background-color: #0972EA;height: 35px;">
+  <div class="container-fluid">
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 0px;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/press-release">Press Release |</a>
+
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/career"> Careers |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact-us">Contact |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/wip">Blue Folder</a>
+
+        </li>
+
+
+
+      </ul>
+
+
+      <a class="btn btn-primary" role="button" href="/wip" style="margin-right: 0px;background-color: #0972ea;">Language
+        |</a>
+
+
+      <a *ngIf="isUserLoggedIn" class="btn btn-primary" role="button"
+        style="background-color: #0972ea;">{{userName}}</a>
+
+        <a *ngIf="isUserLoggedIn" class="btn btn-primary" role="button" (click)="logout()"
+        style="background-color: #0972ea;">Logout</a>
+
+      <a *ngIf="!isUserLoggedIn" class="btn btn-primary" role="button" (click)="openLoginForm()"
+        style="background-color: #0972ea;">Login</a>
+
+    </div>
+  </div>
+</nav> -->
+<div class="container-fluid"  style="background-color: #0972EA;">
+  <div class="row">
+    <div class="col-md-6">
+
+
+      <ul>
+        <li><a routerLink="/press-release"  style="color:white;" data-bs-dismiss="offcanvas" >Press Release | </a></li>
+        <li><a routerLink="/career"  style="color:white;" data-bs-dismiss="offcanvas" >Career |</a></li>
+        <li><a routerLink="/contact-us"  style="color:white;" data-bs-dismiss="offcanvas" >Contact |</a></li>
+        <!-- <li><a routerLink="#"  style="color:white;">Blue Folder</a></li> -->
+      </ul>
+
+      
+    </div>
+    <div class="col-md-6" style="float:right;">
+      <div class="col-md-2 text-right" style="float: right;top: 5px;">
+        <a routerLink="/cart">
+            <span class="badge badge-dark">
+                <i class="fa fa-cart-plus fa-2x fa-fw"></i>
+                {{ getCartItems() }}
+            </span>
+        </a>
+    </div>
+
+      <!-- Content for the right column -->
+      <a class="btn btn-primary" id="bec" role="button"routerLink="/home" style="background-color: #0972ea;float:right;font-family: Arial Nova;">Login / SignUp</a>
+
+      <!-- <a class="btn btn-primary" id="bec" role="button" routerLink="#" style="margin-right: 0px;background-color: #0972ea;float:right;font-family: Arial Nova;" >Language |</a> -->
+    </div>
+  </div>
+</div>

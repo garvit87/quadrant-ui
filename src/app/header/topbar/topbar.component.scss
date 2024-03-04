@@ -1,0 +1,101 @@
+.chandrayan{
+    width: 100%;
+    height: 35px;
+    background-color: #FF671F
+}
+.chandrayan1{
+    width: 100%;
+    height: 50px;
+    background-color: #FFF
+}
+.chandrayan2{
+    width: 100%;
+    height: 35px;
+    background-color: #046A38
+}
+marquee{
+    font-family: "Arial Nova bold";
+    font-size: 18px;
+    margin: 6px;
+}
+
+.topbar{
+    height: 60px;
+    background: #0972EA 0% 0% no-repeat padding-box;
+}
+ul li a{
+    color: #ffffff;
+}
+
+.nav-item{
+    font-family: "Arial Nova";
+    color:white;
+}
+
+.nav-link{
+    font-family: "Arial Nova";
+    color:white!important;
+}
+
+.nav-link:hover{
+    font-family: "Arial Nova";
+    color:white!important;
+}
+
+
+
+/*--- new top bar---*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0972ea;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Arial Nova';
+  }
+
+  a#bec{
+    margin-left: -10px!important;
+  }
+  span.badge.badge-dark {
+    background:none;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px){
+    nav#tobar{
+        height:50px!important;
+    }
+
+    a#bec{
+        float: left !important;
+        padding-left: 18px !important;
+        margin-top: -30px !important;
+    }
+
+    .col-md-2.text-right {
+        // top: -30px!important;
+        visibility: visible;
+        position: initial;
+    }
+    span.badge.badge-dark{
+        background: none;
+        color: #fff;
+        position: relative;
+        top: -30px;
+    }
+}
