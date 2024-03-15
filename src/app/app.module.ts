@@ -106,6 +106,7 @@ import { PodcastsComponent } from './podcasts/podcasts.component';
 import { WebinarComponent } from './webinar/webinar.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
 import { CanonicalservicesComponent } from './canonicalservices/canonicalservices.component';
+import { ResearchComponent } from './research/research.component';
 
 
 // const appRoutes:Routes=[
@@ -198,7 +199,8 @@ import { CanonicalservicesComponent } from './canonicalservices/canonicalservice
     PodcastsComponent,
     WebinarComponent,
     ThankyouComponent,
-    CanonicalservicesComponent
+    CanonicalservicesComponent,
+    ResearchComponent
     
     
   ],
