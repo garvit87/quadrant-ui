@@ -45,34 +45,49 @@
     </div>
   </div>
 </nav> -->
-<div class="container-fluid"  style="background-color: #0972EA;">
+<div class="container-fluid"  style="background: #ede3dc;">
   <div class="row">
     <div class="col-md-6">
 
 
       <ul>
-        <li><a routerLink="/press-release"  style="color:white;" data-bs-dismiss="offcanvas" >Press Release | </a></li>
-        <li><a routerLink="/career"  style="color:white;" data-bs-dismiss="offcanvas" >Career |</a></li>
-        <li><a routerLink="/contact-us"  style="color:white;" data-bs-dismiss="offcanvas" >Contact |</a></li>
-        <!-- <li><a routerLink="#"  style="color:white;">Blue Folder</a></li> -->
+        <li><a routerLink="/press-release"  style="color:#011F41;" data-bs-dismiss="offcanvas" >Press Release | </a></li>
+        <li><a routerLink="/career"  style="color:#011F41;" data-bs-dismiss="offcanvas" >Career |</a></li>
+        <li><a routerLink="/contact-us"  style="color:#011F41;" data-bs-dismiss="offcanvas" >Contact |</a></li>
+        <li><a routerLink="#"  style="color:#011F41;">Blue Folder</a></li>
       </ul>
 
       
     </div>
-    <div class="col-md-6" style="float:right;">
-      <div class="col-md-2 text-right" style="float: right;top: 5px;">
+    <div class="col-md-6">
+      <!-- <div class="col-md-2 text-right" style="float: right;top: 5px;">
         <a routerLink="/cart">
             <span class="badge badge-dark">
                 <i class="fa fa-cart-plus fa-2x fa-fw"></i>
                 {{ getCartItems() }}
             </span>
         </a>
-    </div>
+    </div> -->
 
       <!-- Content for the right column -->
-      <a class="btn btn-primary" id="bec" role="button"routerLink="/home" style="background-color: #0972ea;float:right;font-family: Arial Nova;">Login / SignUp</a>
+      <!-- <a class="btn btn-primary" id="bec" role="button"routerLink="/home" style="background-color: #0972ea;float:right;font-family: Arial Nova;">Login / SignUp</a> -->
 
       <!-- <a class="btn btn-primary" id="bec" role="button" routerLink="#" style="margin-right: 0px;background-color: #0972ea;float:right;font-family: Arial Nova;" >Language |</a> -->
+      <div class="row">
+        <div class="col-md-6 fx">
+          <span><i class="fa fa-support fn"></i></span>
+          <a routerLink=""><span><i class="bi bi-calendar-week fn"></i></span></a>
+          <span><i class="bi bi-bell fn"></i></span>
+         
+        </div>
+        <div class="col-md-6 fxr">
+          <img src="/assets/ellipse.png" style="width: 25px;">
+          <select class="slt">
+            <option>Hi Kam !</option>
+            <option>pk</option>
+          </select>
+        </div>
+      </div>
     </div>
   </div>
 </div>

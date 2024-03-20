@@ -52,7 +52,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0972ea;
+    // background-color: #0972ea;
   }
   
   li {
@@ -75,7 +75,32 @@ ul {
     background:none;
     color: #fff;
 }
-
+.fx{
+    position: relative;
+    left: 320px;
+    top: 2px;
+}
+.fn{
+    font-size: 20px;
+    padding: 5px;
+    color:#011F41;
+}
+.fxr{
+    position: relative;
+    left: 130px;
+    top: 2px;
+}
+.slt{
+    background: none;
+    color: #00327A;
+    font-family: "Arial Nova";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
 @media screen and (max-width: 480px){
     nav#tobar{
         height:50px!important;

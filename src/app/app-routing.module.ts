@@ -66,6 +66,7 @@ import { VideoGalleryComponent } from './video-gallery/video-gallery.component';
 import { CanonicalservicesComponent } from './canonicalservices/canonicalservices.component';
 import { PodcastsComponent } from './podcasts/podcasts.component';
 import { WebinarComponent } from './webinar/webinar.component';
+import { ResearchComponent } from './research/research.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
 
 // const routes: Routes = [];
@@ -93,7 +94,12 @@ const routes: Routes = [
     }, {
         path: 'market_research/:reportName',
         component: OldUrlRedirectComponent
-    }, {
+    },
+    {
+        path: 'research',
+        component: ResearchComponent
+    },
+    {
         path: 'cart',
         component: CartComponent
     }, {
