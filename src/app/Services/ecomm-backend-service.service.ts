@@ -97,6 +97,14 @@ private apiUrl = 'https://technonxt.in';
     return this.http.get<ApiResponse>(`${this.apiUrl}/research-masters/research-list`, { params });
   }
  
+
+  getResearchData1(page:any, size:any): Observable<ApiResponse> {
+    const params = new HttpParams()
+      .set('page', page.toString())
+      .set('size', size.toString());
+  
+    return this.http.get<ApiResponse>(`${this.apiUrl}/research/research-list`, { params });
+  }
   getResearchWithNgxPagination(page: any, size: any) {
     const params = new HttpParams()
       .set('page', page.toString())
