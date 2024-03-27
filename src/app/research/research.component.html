@@ -79,7 +79,11 @@
             </form>
           </div>
           <div class="col-sm-6 plt">
-            <nav aria-label="Page navigation example">
+            <div class="redi">
+              <span><input type="radio" name="radio">All Research</span>
+             <span><input type="radio" name="radio">Subscribed Research</span>
+            </div>
+            
               <ul class="pagination">
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
@@ -97,7 +101,6 @@
                   </a>
                 </li>
               </ul>
-            </nav>
           </div>
         </div>
         <div class="research-item" *ngFor="let research of Reports">

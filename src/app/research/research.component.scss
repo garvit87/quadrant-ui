@@ -220,6 +220,7 @@ button#dropdownMenuButton:active {
     position: relative;
     top: 5px;
     font-family: "Arial Nova";
+    padding: 2px;
 }
 
 .research-description {
@@ -309,7 +310,30 @@ button#dropdownMenuButton:active {
 .plt {
     position: relative;
     left: 215px;
-    top: 15px;
+    top: 35px;
+}
+.redi{
+    position: relative;
+    left: -75px;
+    top: -20px;
+}
+.redi span {
+    padding: 6px;
+    font-size: 14px;
+    color: #00327A;
+    font-family: "Arial Nova";
+}
+input[type='radio'] {
+    
+    height: 10px;
+    color: #00327A;
+    margin: 4px;
+    
+    // box-shadow: 0 0 0 2px gray;
+}
+input[type=checkbox], input[type=radio] {
+    border: #00327A !important;
+    accent-color: #00327A !important;
 }
 
 .page-link {

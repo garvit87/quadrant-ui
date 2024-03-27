@@ -1,0 +1,103 @@
+<div class="container-fluid" style="margin-bottom: 70px;">
+    <div class="row">
+        <div class="col-md-2 lt">
+            <form>
+                <input class="srch" type="text" name="search" placeholder="Search Topic"><i class="fa fa-search"></i>
+            </form>
+            <a routerLink="" class="a1">Connect With Our Analyst <i class="bi bi-chevron-right"></i></a>
+            <a routerLink="" class="a2">Connect With Our Servicer Partner <i class="bi bi-chevron-right"></i></a>
+        </div>
+        <div class="col-md-7 mdl" style="margin-bottom: 40%;">
+            <div class="research-item" *ngFor="let research of Reports">
+                <div class="row">
+                    <div class="col-md-6" style="padding-bottom:5px;width: 425px;">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <!-- <span>Date :</span> -->
+                                <span>{{research.date}}</span>
+                            </div>
+                            <div class="col-sm-7 cat">
+                                <span>Category :</span>
+                                <a href="" style="text-decoration: none;"><span> {{research.category}}</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="#" class="research-title">{{research.title}}
+                        </a><br>
+                        <span class="research-category">Report Type:
+                            <a href="#" style="text-decoration: none;"><span>{{research.reporttype}}</span></a>
+                        </span>
+                        <span class="research-category">Author:
+                            <a href="#" style="text-decoration: none;"><span>{{research.author}} </span></a>
+                        </span>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-md-6 im">
+
+                                <a href=""><img src="/assets/cart.png" style="width:18px"></a>
+                            </div>
+                            <div class="col-md-6 im1">
+                                <a href=""><img src="/assets/download.png" style="width:18px"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-9 research-description">
+                        <!-- <p class="dec">{{research.description}}</p> -->
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-success bn">Buy Now</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <span>Price : </span><span class="prc"> <i class="fas fa-dollar-sign"
+                                style="color: #444343;"></i>
+                            {{research.price}} </span>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+               
+            </div><br><br><br>
+            <b>Description:</b><br><br>
+            <span>
+
+                Quadrant Knowledge Solutions’ Network Firewalls market research includes a detailed analysis of the global market regarding emerging technology trends, market trends, and future market outlook. This research provides strategic information for technology vendors to better understand the existing market, supporting their growth strategies; and for users to evaluate different vendors’ capabilities, competitive differentiation, and market position.<br><br>
+                
+                The research includes detailed competition analysis and vendor evaluation with the proprietary SPARK Matrix analysis. The SPARK Matrix includes ranking and positioning of leading Network Firewalls vendors with a global impact. The SPARK Matrix includes analysis of vendors, including Alibaba Cloud, AWS, Barracuda, Check Point, Cisco, Fortinet, Forcepoint, Hillstone Networks, H3C, Huawei, Juniper Networks, Microsoft, Palo Alto Networks, Sangfor Technologies, SonicWall, Sophos and WatchGuard.<br><br>
+                
+                <i>According to Aneesh, Analyst at Quadrant Knowledge Solutions, “A Network Firewall solution offers features such as networking, filtering, monitoring, logging, reporting, as well as intrusion detection and prevention systems, that serve as a pivotal safeguard for organizations. Leading Security Vendors providing firewall solutions extend their capabilities across on-premise, hybrid, and cloud environments. Moreover, these vendors are actively integrating new technologies such as SD-WAN and SASE to adapt to evolving threat landscapes while concurrently upholding optimized network performance standards.”</i></span>
+        </div>
+        <div class="col-md-3 rts">
+            <button class="btn btn-success bt2"> Download Sample Report</button>
+            <p class="links" style="margin-left:0px;"><a href="#" class="fa fa-envelope-o"></a><a
+                    href="https://www.linkedin.com/company/quadrant-knowledge-solutions/" target="_blank"
+                    class="fa fa-linkedin"></a><a href="https://twitter.com/QKS_Quadrant" target="_blank"
+                    class="fa fa-twitter"></a><a href="#" class="fa fa-facebook"></a><a href="#"
+                    class="fa fa-instagram"></a></p>
+            <h4 class="qs">Quadrant Sales</h4>
+            <p style="margin-left: 12px;"><i class="fa fa-envelope-open-o"></i>&nbsp; <a
+                    href="mailto:ajinkya@quadrant-solutions.com"
+                    style="text-decoration: none;font-size: 12px;">ajinkya@quadrant-solutions.com</a><br>
+                <i class="bi bi-telephone"></i>&nbsp;
+                <a href="tel:(+1) 978-344-2770" style="text-decoration: none;font-size: 12px;">(+1) 978-344-2770</a>
+            </p>
+            <h4 class="qs">Need a brief overview?</h4>
+            <a href="/contact-us" style="text-decoration: none;" class="cu">Contact Us<img src="/assets/arrow-right.png"
+                    style="height: 18px;"></a>
+        </div>
+    </div>
+
+</div>
+<app-searchbar></app-searchbar>

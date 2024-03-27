@@ -107,6 +107,7 @@ import { WebinarComponent } from './webinar/webinar.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
 import { CanonicalservicesComponent } from './canonicalservices/canonicalservices.component';
 import { ResearchComponent } from './research/research.component';
+import { ResearchSingleComponent } from './research-single/research-single.component';
 
 
 // const appRoutes:Routes=[
@@ -200,7 +201,8 @@ import { ResearchComponent } from './research/research.component';
     WebinarComponent,
     ThankyouComponent,
     CanonicalservicesComponent,
-    ResearchComponent
+    ResearchComponent,
+    ResearchSingleComponent
     
     
   ],

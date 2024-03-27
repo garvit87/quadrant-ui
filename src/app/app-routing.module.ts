@@ -67,6 +67,7 @@ import { CanonicalservicesComponent } from './canonicalservices/canonicalservice
 import { PodcastsComponent } from './podcasts/podcasts.component';
 import { WebinarComponent } from './webinar/webinar.component';
 import { ResearchComponent } from './research/research.component';
+import { ResearchSingleComponent } from './research-single/research-single.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
 
 // const routes: Routes = [];
@@ -98,6 +99,10 @@ const routes: Routes = [
     {
         path: 'research',
         component: ResearchComponent
+    },
+    {
+        path: 'research-single',
+        component:  ResearchSingleComponent
     },
     {
         path: 'cart',
